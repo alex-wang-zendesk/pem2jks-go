@@ -39,4 +39,4 @@ Still within the above docker instance, run below command lines to convert the J
 $ keytool -list -v -keystore /certs/output/keystore_golang.jks -storepass password > /certs/output/keystore_golang.txt
 $ keytool -list -v -keystore /certs/output/keystore_java.jks -storepass password > /certs/output/keystore_java.txt
 ```
-Now, you should have the keystore_golang.txt and keystore_java.txt files in your certs directory on your Mac. You can compare these files to check if the Golang solution generated the correct keystore.jks file.
+Now, you should have the `keystore_golang.txt` and `keystore_java.txt` files in your `/certs/output` directory in the repo. You can compare these files to check if the Golang solution generated the correct JKS file.
